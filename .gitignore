@@ -1,0 +1,22 @@
+# --- Python Virtual Environments ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Python Cache and Bytecode ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# --- Operating System Junk Files ---
+.DS_Store
+Thumbs.db
+
+# --- Code Editor Configurations (Optional but Recommended) ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
