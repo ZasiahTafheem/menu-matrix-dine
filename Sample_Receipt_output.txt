@@ -1,0 +1,60 @@
+## Sample Receipt
+
+The following is an example output from the menu program:
+///////////////////////////////////////////////////////////
+Welcome to our Restaurant
+Please see our menu items which you can order:
+******************** MENU ********************
+
+--- COFFEE ---
+  * Cappuccino: 45 Tk
+  * Latte: 40 Tk
+  * Espresso: 35 Tk
+
+--- BURGER ---
+  * Beef Burger: 250 Tk
+  * Crispy Chicken Burger: 220 Tk
+  * Veggie Burger: 180 Tk
+
+--- FRUITJUICE ---
+  * Orange Juice: 100 Tk
+  * Apple Juice: 120 Tk
+
+--- ICECREAM ---
+  * Vanilla Icecream: 75 Tk
+  * Chocolate Icecream: 85 Tk
+
+--- PIZZA ---
+  * Margherita Pizza: 350 Tk
+  * Pepperoni Pizza: 400 Tk
+
+--- SANDWICH ---
+  * Club Sandwich: 150 Tk
+  * Cheese Sandwich: 120 Tk
+**********************************************
+Enter 'no order' to finish and close your order.
+
+Enter the specific food name you want to order: Club sandwich
+Enter number of items in digit only like 1,2,3,..: 2
+Success! Added to order: Club Sandwich [2 nos.] (@150 Tk)
+
+Enter the specific food name you want to order: vanilla icecream
+Enter number of items in digit only like 1,2,3,..: 1
+Success! Added to order: Vanilla Icecream [1 nos.] (@75 Tk)
+
+Enter the specific food name you want to order: latte
+Enter number of items in digit only like 1,2,3,..: 1
+Success! Added to order: Latte [1 nos.] (@40 Tk)
+
+Enter the specific food name you want to order: no order
+Watch out Your order Summary
+
+=================== YOUR RECEIPT ===================
+Qty   | Item Name                 | Unit Price | Total     
+----------------------------------------------------
+2     | Club Sandwich             | 150        | 300       
+1     | Vanilla Icecream          | 75         | 75        
+1     | Latte                     | 40         | 40        
+====================================================
+Your grand total cost is: 415 Tk
+Thank you for visiting our restaurant!
